@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/cake"
+    android:orientation="vertical"
+    android:padding="10dp"
+
+    tools:context=".FinalActivity">
+
+    <TextView
+        android:id="@+id/tvData"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/wish"
+        android:fontFamily="@font/semibold"
+        android:hint="@string/wish"
+
+        android:padding="10dp"
+        android:textColor="@color/purple_200"
+        android:textColorHint="#EBF2BD1C"
+        android:textSize="25sp"
+
+        />
+    <Button
+        android:id="@+id/BtnFinal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=">"
+        android:textSize="25dp"
+        android:layout_gravity="bottom|end"
+        android:layout_marginTop="60dp"
+        android:layout_marginRight="10dp"
+        />
+
+
+
+</LinearLayout>
+    <!--   <ImageView-->
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:layout_height="match_parent"-->
+    <!--        android:layout_marginTop="-145dp"-->
+    <!--        android:adjustViewBounds="true"-->
+    <!--        android:background="@drawable/cake"-->
+    <!--        android:elevation="10dp"-->
+    <!--        android:scaleType="centerCrop"-->
+    <!--        android:scaleX="1.2" />-->

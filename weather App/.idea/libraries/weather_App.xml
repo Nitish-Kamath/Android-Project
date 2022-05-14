@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="weather App">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/drive-download-20220211T014300Z-001.zip!/" />
+      <root url="jar://$PROJECT_DIR$/Weather_App-master.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">wishing</string>
+    <string name="wish">Wishing My Dear Friend $name. A very Happy Birthday and Hope that the year $age would be very Prosperous for him :)</string>
+</resources>
