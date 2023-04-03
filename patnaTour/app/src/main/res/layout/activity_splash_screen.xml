@@ -12,7 +12,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:fontFamily="serif-monospace"
-        android:text="Patna"
+        android:text="carShop"
         android:textColor="@color/white"
         android:textSize="40sp"
         android:textStyle="bold"
@@ -24,7 +24,7 @@
         android:layout_height="2dp"
         android:layout_marginLeft="30dp"
 
-        android:layout_marginRight="40dp"
+        android:layout_marginRight="30dp"
         android:background="@color/black" />
 
     <TextView
@@ -32,7 +32,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:fontFamily="serif-monospace"
-        android:text="Welcome To DreamLand"
+        android:text="Welcome To DreamShop"
         android:textColor="@color/white"
         android:textSize="25sp"
         android:textStyle="bold"

@@ -2,73 +2,151 @@ package com.nitishkamath.patnatour
 
 object setData {
 
-    fun setTourData(): List<tourData> {
-        var visitingPlaceList = mutableListOf<tourData>()
-        visitingPlaceList.add(
-            tourData(
-                1,
-                "Buddha Smriti Park",
-                "Park - INR 20, Karuna Stupa - INR 50, Meditation Centre - INR 500, Museum - INR 40",
-                "4.5",
-                "500m",
-                "Located on the Frazer Road near Patna Junction in Patna, Buddha Smriti Udyan is a large urban park which was constructed by the Patna Government to commemorate the 2554th anniversary of Lord Buddha. Inaugurated in 2010 by the 14th Dalai Lama himself, the highlight of the park is the magnanimous Patliputra Karuna Stupa situated in the centre of the park. Sprawling over 22 acres, there were two special saplings that were planted here at the time of its opening- one of it was brought from Bodh Gaya and the other from Anuradhapura in Sri Lanka."
+    fun setTourData(): List<userDefinedData> {
+        var carList = mutableListOf<userDefinedData>()
+        carList.add(
+            userDefinedData(
+                "Hyundi",
+                "Hyundai i20",
+                "4.4",
+                "v4 engine",
+                "2000",
+                "4 doors",
+                "7.19 lakh -  11.33 lakh",
+                "Red Color",
+                "10/11/2009",
 
-            )
+                )
         )
-        visitingPlaceList.add(
-            tourData(
-                2,
-                "Patna Planetrium",
-                "INR 50 (Ticket mandatory for kids over 3 years)",
+        carList.add(
+            userDefinedData(
+                "Maruti",
+                "Maruti Alto K10",
                 "4.6",
-                "1.4Km",
-                "Located in the city of Patna, Indira Gandhi Planetarium or Patna planetarium is one of the oldest and largest planetariums of Asia. It is also popularly known as Taramandal, meaning a circle of stars, and is one of the largest and most well-maintained planetariums in the country. A wide range of film shows on subjects related to astronomy are showcased here. Apart from that, exhibitions are also held on various related topics for visitors. \n" +
-                        "\n" +
-                        "The Patna Planetarium has a modern state of the art projection system,well-maintained complex and a chic auditorium. The seating capacity in the main hall is of 276 people. There is a huge dome shaped screen here to showcase the movies in which visitors need to look up on the roof to enjoy the amazing feeling of watching a sky full of fascinating stars, moons and other celestial bodies. A crystal clear surround sound quality makes the experience even more wonderful. Apart from this, a separate place is available for holding large events, conferences, seminars or workshops. These wonderful facilities make this tourist attraction in the crowded city - Patna, both entertaining and educational."
+                "v4 engine",
+                "2010",
+                "5 doors",
+                "3.99 lakh - 5.99 lakh",
+                "Red Color",
+                "12/12/2012",
 
-            )
+                )
         )
-        visitingPlaceList.add(
-            tourData(
-                1,
-                "Takht Sri Patna Sahib",
-                "No Entry fee",
+        carList.add(
+            userDefinedData(
+                "Mercedes",
+                "Mercedes-Benz GLE",
                 "4.8",
-                "14Km",
-                "Enjoy the tour of historic Gurudwaras of Patna with us. Start your trip with Gurudwara Handi Sahib, where Guru Gobind Singh had khichdi before leaving Patna. Proceed on to Gurudwara Gai Ghaat, built to commemorate the stay of Guru Nanak in Patna. Next visit Takht Shri Patna Sahib, where Guru Gobind Singh was born. Witness the illuminated Guru Granth Sahib with nisan (Mul Mantra) of Guru Gobind Singh. At walking distance from Takht Shri Patna Sahib is Kangan Ghat, situated on a picturesque Ganga ghat. Nearby is Gurudwara Bal Leela Sahib which was the house of Raja Fateh Chand Maini. Proceed on to Gurdwara Sri Guru Ka Bagh Sahib, where Guru Teg Bahadur stopped in a Bagh (garden) belonging to Nawabs Rahim Bakhsh and Karim Bakhsh, nobles of Patna. In the evening, end the tour with witnessing a laser show on the life on Guru Gobind Singh at Mangal Talab (one evening show per day, around 6:30pm). Spend evening witness grandeur of lighted Harmandir Sahib Ji. Have dinner at place of choice."
-            )
+                "v6 engine",
+                "2020",
+                "5 doors",
+                "87.91 lakh - 1.05 crore",
+                "Red Color",
+                "02/01/2020",
+
+                )
         )
-        visitingPlaceList.add(
-            tourData(
-                1,
-                "Bihar Museum",
-                " Kids - INR 50, Adults - INR 100, Foreigners - INR 500",
-                "4.5",
-                "3Km",
-                "Bihar Museum is a museum located in Patna. It was partially opened in August 2015. ... It was planned as a history museum for the state of Bihar, and began construction in Bailey Road, Patna in October 2013 with an estimated budget of ₹498 crore (US\$66 million)."
-            )
+        carList.add(
+            userDefinedData(
+                "Tata",
+                "Tata Punch",
+                "4.1",
+                "v4 engine",
+                "2021",
+                "4 doors",
+                "5.49 lakh - 9.4 lakh",
+                "Blue Color",
+                "12/10/2023",
+
+                )
         )
-        visitingPlaceList.add(
-            tourData(
-                1,
-                "Eco Park",
-                "Kids - INR 25, Adults - INR 50",
-                "4.5",
-                "3Km",
-                "Patna Eco Park is a large, green area built to provide the visitors a natural place to unwind. There are more than 3000 varieties of flora, a children's park, boating rides, pathways for jogging and cycling, food court, themed natural decorations and occasional display of sculptures. Amidst the busy city, this is a place where the air feels fresh and the green soothes the eyes for a while."
-            )
-        )
-        visitingPlaceList.add(
-            tourData(
-                1,
-                "Sanjay Gandhi Botanical Garden",
-                "Kids - INR 10, Adults - INR 30",
+        carList.add(
+            userDefinedData(
+                "Renault",
+                "Renault Kiger RXL",
                 "4.6",
-                "4Km",
-                "Sanjay Gandhi Botanical Garden, or locally known as Sanjay Gandhi Jaivik Udyan was established in 1969 and has been a source of bounteous nature and greenery to the city ever since. Also known as Patna Zoo, the park has many varieties of flora and fauna, in addition to boasting facility, elephant ride, toy train for kids etc.",
-            )
+                "v4 engine",
+                "2021",
+                "4 doors",
+                "7.92 lakh - 9 lakh",
+                "White Color",
+                "10/02/2022",
+
+                )
         )
-        return visitingPlaceList
+        carList.add(
+            userDefinedData(
+                "Mahindra",
+                "Mahindra Thar",
+                "4.3",
+                "v4 engine",
+                "1970",
+                "3 doors",
+                "9.99 lakh - 16.49 lakh",
+                "Red Color",
+                "10/03/2000",
+
+                )
+        )
+        carList.add(
+            userDefinedData(
+                "Tiago",
+                "Tata Tiago Ev",
+                "4.3",
+                "v4 engine",
+                "2023",
+                "5 doors",
+                "5.54 lakh - 8.00 lakh",
+                "Nave Blue Color",
+                "21/03/2023",
+
+                )
+        )
+        carList.add(
+            userDefinedData(
+                "Toyota",
+                "Toyota Fortuner",
+                "4.1",
+                "v4 engine",
+                "2005",
+                "4 doors",
+                "32.59 lakh - 50.34 lakh",
+                "Black Color",
+                "03/01/2008",
+
+                )
+        )
+
+
+        carList.add(
+            userDefinedData(
+                "Volkswagen",
+                "Volkswagen Virtus",
+                "4.7",
+                "v6 engine",
+                "2022",
+                "5 doors",
+                "11.48 lakh - 18.57 lakh",
+                "Red Tint Color",
+                "09/03/2023",
+
+                )
+        )
+        carList.add(
+            userDefinedData(
+                "Maruti",
+                "Maruti Baleno",
+                "4,3",
+                "v4 engine",
+                "2016",
+                "5 doors",
+                "6.56 lakh - 9.83 lakh",
+                "Brown Color",
+                "07/10/2018",
+
+                )
+        )
+        return carList
     }
 
 }

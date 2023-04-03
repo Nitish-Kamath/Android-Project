@@ -4,11 +4,46 @@
 
     <application
         android:allowBackup="true"
-        android:icon="@drawable/ic_launcher"
+        android:icon="@drawable/alto"
         android:label="@string/app_name"
-        android:roundIcon="@drawable/ic_launcher"
+        android:roundIcon="@drawable/alto"
         android:supportsRtl="true"
         android:theme="@style/Theme.PatnaTour">
+        <activity
+            android:name=".CompanyDetails"
+            android:screenOrientation="portrait"
+            android:exported="true" />
+        <activity
+            android:name=".ModifyVehicles"
+            android:screenOrientation="portrait"
+            android:exported="true" />
+        <activity
+            android:name=".AddDetails"
+            android:screenOrientation="portrait"
+            android:exported="true" />
+        <activity
+            android:name=".soldvehicle"
+            android:screenOrientation="portrait"
+            android:exported="true" />
+        <activity
+            android:name=".allvehicle"
+            android:screenOrientation="portrait"
+            android:exported="true" />
+        <activity
+            android:name=".SplashScreen"
+            android:exported="true"
+            android:screenOrientation="portrait"
+            >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".menu"
+            android:exported="true"
+            android:screenOrientation="portrait" />
         <activity
             android:name=".PlaceDetail"
             android:exported="true"
@@ -18,21 +53,9 @@
             android:exported="true"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".SplashScreen"
-            android:exported="true"
-            android:screenOrientation="portrait">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
-        <activity
             android:name=".MainActivity"
             android:exported="true"
-            android:screenOrientation="portrait">
-
-        </activity>
+            android:screenOrientation="portrait" />
     </application>
 
 </manifest>

@@ -13,7 +13,7 @@
         android:background="@drawable/main_background"
         android:fontFamily="@font/semibold"
         android:padding="5dp"
-        android:text="Patna Tour"
+        android:text="car Shop"
         android:textColor="@color/white"
         android:textSize="40sp" />
 

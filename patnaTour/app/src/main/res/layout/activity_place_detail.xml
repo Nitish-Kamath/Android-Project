@@ -10,6 +10,7 @@
 
 
     <ImageView
+        android:id="@+id/tvDetailId"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:adjustViewBounds="true"
@@ -20,25 +21,23 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="-50dp"
         android:orientation="vertical">
 
-        <ImageView
-            android:id="@+id/image_pd"
-            android:layout_width="110dp"
-            android:layout_height="110dp"
-            android:layout_gravity="center_horizontal"
-            android:elevation="40dp"
-            android:src="@drawable/buddhapark" />
+        <!--        <ImageView-->
+        <!--            android:id="@+id/image_pd"-->
+        <!--            android:layout_width="110dp"-->
+        <!--            android:layout_height="110dp"-->
+        <!--            android:layout_gravity="center_horizontal"-->
+        <!--            android:elevation="40dp"-->
+        <!--            android:src="@drawable/alto" />-->
 
         <androidx.cardview.widget.CardView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_marginLeft="15dp"
-            android:layout_marginTop="-40dp"
             android:layout_marginRight="15dp"
             android:backgroundTint="#803F51B5"
-            android:elevation="10dp"
+
             app:cardCornerRadius="10dp">
 
             <LinearLayout
@@ -49,22 +48,22 @@
                 android:paddingTop="60dp">
 
                 <TextView
-                    android:id="@+id/title_pd"
+                    android:id="@+id/makeDetailId"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:fontFamily="@font/semibold"
-                    android:text="Buddha Park"
+                    android:text="Car make"
                     android:textColor="@color/white"
                     android:textSize="24sp"
                     android:textStyle="bold" />
 
                 <TextView
-                    android:id="@+id/info_pd"
+                    android:id="@+id/modelDetailId"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="-5dp"
                     android:fontFamily="@font/regular"
-                    android:text="Tranquil park with a stupa and museum"
+                    android:text="car Model"
                     android:textColor="@color/white"
                     android:textSize="14sp" />
 
@@ -88,7 +87,7 @@
                         android:src="@drawable/rating" />
 
                     <TextView
-                        android:id="@+id/rating_pd"
+                        android:id="@+id/ratingDetailId"
                         android:layout_width="wrap_content"
                         android:layout_height="match_parent"
                         android:layout_marginStart="4dp"
@@ -101,15 +100,15 @@
                         android:layout_width="20dp"
                         android:layout_height="24dp"
                         android:layout_marginStart="20dp"
-                        android:src="@drawable/location" />
+                        android:src="@drawable/car_icon" />
 
                     <TextView
-                        android:id="@+id/distance_pd"
+                        android:id="@+id/yearDetailId"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginStart="4dp"
                         android:fontFamily="@font/regular"
-                        android:text="500m"
+                        android:text="2000"
                         android:textColor="@color/white"
                         android:textSize="18sp" />
                 </LinearLayout>
@@ -145,7 +144,7 @@
                     android:layout_height="wrap_content"
                     android:fontFamily="@font/semibold"
                     android:letterSpacing="0.1"
-                    android:text="Overview"
+                    android:text="Other Specs:-"
                     android:textAllCaps="true"
                     android:textColor="@color/white"
                     android:textSize="20sp"
@@ -158,16 +157,142 @@
                     android:background="#03A9F4"
                     android:orientation="vertical" />
 
-                <TextView
-                    android:id="@+id/overview_pd"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="10dp"
-                    android:fontFamily="@font/regular"
-                    android:lineSpacingExtra="1dp"
-                    android:text="Buddha Smriti Park also known as Buddha Memorial Park is an urban park located on Frazer Road near Patna Junction in Patna, India. This park has been designed by Vikram Lall and developed by the Bihar Government to commemorate the 2554th birth anniversary of the Buddha."
-                    android:textColor="@color/white"
-                    android:textSize="18sp" />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:fontFamily="@font/regular"
+                        android:lineSpacingExtra="1dp"
+                        android:text="Engine Cylinder Type:"
+                        android:textColor="@color/white"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:id="@+id/specs1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="10dp"
+                        android:text="hint"
+                        android:textColor="@color/white"
+
+                        android:textSize="18sp" />
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:fontFamily="@font/regular"
+                        android:lineSpacingExtra="1dp"
+                        android:text="Number of Doors:"
+                        android:textColor="@color/white"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:id="@+id/specs2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="10dp"
+                        android:text="hint"
+                        android:textColor="@color/white"
+
+                        android:textSize="18sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:fontFamily="@font/regular"
+                        android:lineSpacingExtra="1dp"
+                        android:text="Price Range:"
+                        android:textColor="@color/white"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:id="@+id/specs3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="10dp"
+                        android:text="hint"
+                        android:textColor="@color/white"
+
+                        android:textSize="18sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:fontFamily="@font/regular"
+                        android:lineSpacingExtra="1dp"
+                        android:text="Color:"
+                        android:textColor="@color/white"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:id="@+id/specs4"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="10dp"
+                        android:text="hint"
+                        android:textColor="@color/white"
+
+                        android:textSize="18sp" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:fontFamily="@font/regular"
+                        android:lineSpacingExtra="1dp"
+                        android:text="Date Sold:"
+                        android:textColor="@color/white"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:id="@+id/specs5"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="10dp"
+                        android:text="hint"
+                        android:textColor="@color/white"
+
+                        android:textSize="18sp" />
+                </LinearLayout>
+
+
             </LinearLayout>
 
 

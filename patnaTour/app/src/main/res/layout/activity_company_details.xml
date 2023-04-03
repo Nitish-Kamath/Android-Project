@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#235E73"
+    tools:context=".CompanyDetails">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="170dp"
+        android:fontFamily="@font/semibold"
+        android:gravity="center_horizontal"
+        android:text="Auto Hub\nUsed Car Dealer\nP193, 1, Ultadanga Main Rd\nTiming:- 8:00 AM - 7:30 PM\nPhone:- 9876543210"
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+
+</LinearLayout>
+
+

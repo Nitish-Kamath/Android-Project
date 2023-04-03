@@ -6,7 +6,7 @@ import androidx.appcompat.app.AppCompatActivity
 import kotlinx.android.synthetic.main.activity_place_detail.*
 
 class PlaceDetail : AppCompatActivity() {
-    private lateinit var obj: tourData
+    private lateinit var obj: userDefinedData
     private var image: Int? = null
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -22,14 +22,18 @@ class PlaceDetail : AppCompatActivity() {
 
     }
 
-    private fun setData(obj: tourData, image: Int) {
+    private fun setData(obj: userDefinedData, image: Int) {
 
-        title_pd.text = obj.title
-        distance_pd.text = obj.distance
-        rating_pd.text = obj.rating
-        info_pd.text = obj.info
-        overview_pd.text = obj.overView
-        image_pd.setImageResource(image)
+        makeDetailId.text = obj.make
+        modelDetailId.text= obj.model
+        ratingDetailId.text = obj.condition
+        yearDetailId.text = obj.year
+        specs1.text = obj.engineCylinder
+        specs2.text = obj.numberOfDoors
+        specs3.text  = obj.price
+        specs4.text = obj.color
+        specs5.text = obj.dateSold
+        tvDetailId.setImageResource(image)
 
 
     }

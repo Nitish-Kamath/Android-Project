@@ -10,15 +10,15 @@ import androidx.recyclerview.widget.RecyclerView
 import kotlinx.android.synthetic.main.view.view.*
 
 // myVisitingPlaceList is a list of data of type PlanetData.
-class Adapter(var myVisitingPlaceList: List<tourData>) :
+class Adapter(var myVisitingPlaceList: List<userDefinedData>) :
     RecyclerView.Adapter<Adapter.myViewHolder>() {
 
     class myViewHolder(view: View) : RecyclerView.ViewHolder(view) {
         var image = view.ivImage!!
-        var title = view.tvTitle
-        var info = view.tvInfo
-        var rating = view.tvRating
-        var distance = view.tvDistance
+        var make = view.tvMake!!
+        var model = view.tvModel!!
+        var rating = view.tvRating!!
+        var year = view.tvYear!!
 
     }
 
@@ -39,30 +39,44 @@ class Adapter(var myVisitingPlaceList: List<tourData>) :
 
         }
 
-        holder.title.text = myVisitingPlaceList[position].title
-        holder.info.text = myVisitingPlaceList[position].info
-        holder.rating.text = myVisitingPlaceList[position].rating
-        holder.distance.text = myVisitingPlaceList[position].distance
+        holder.make.text = myVisitingPlaceList[position].make
+        holder.model.text = myVisitingPlaceList[position].model
+        holder.rating.text = myVisitingPlaceList[position].condition
+        holder.year.text = myVisitingPlaceList[position].year
 
-        when (myVisitingPlaceList[position].title!!) {
-            "Buddha Smriti Park" -> {
-                dummyImage = R.drawable.buddhapark
+        when (myVisitingPlaceList[position].model!!) {
+            "Maruti Alto K10" -> {
+                dummyImage = R.drawable.alto
             }
-            "Patna Planetrium" -> {
-                dummyImage = R.drawable.taramandal
+            "Hyundai i20" -> {
+                dummyImage = R.drawable.hyundi
             }
-            "Takht Sri Patna Sahib" -> {
-                dummyImage = R.drawable.gwara
+            "Mercedes-Benz GLE" -> {
+                dummyImage = R.drawable.merbenz
             }
-            "Bihar Museum" -> {
-                dummyImage = R.drawable.bmuseum
+            "Tata Punch" -> {
+                dummyImage = R.drawable.punch
             }
-            "Eco Park" -> {
-                dummyImage = R.drawable.ecopark
+            "Renault Kiger RXL" -> {
+                dummyImage = R.drawable.reanault
             }
-            "Sanjay Gandhi Botanical Garden" -> {
-                dummyImage = R.drawable.zoo
+            "Mahindra Thar" -> {
+                dummyImage = R.drawable.thar
             }
+            "Tata Tiago Ev" -> {
+                dummyImage = R.drawable.tiago
+            }
+
+            "Toyota Fortuner" -> {
+                dummyImage = R.drawable.toyota
+            }
+            "Volkswagen Virtus" -> {
+                dummyImage = R.drawable.volkswagen
+            }
+            "Maruti Baleno" -> {
+                dummyImage = R.drawable.marutibaleno
+            }
+
 
         }
         if (dummyImage != null) {
