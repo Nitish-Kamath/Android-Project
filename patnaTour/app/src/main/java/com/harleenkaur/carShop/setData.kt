@@ -1,4 +1,4 @@
-package com.nitishkamath.patnatour
+package com.harleenkaur.carShop
 
 object setData {
 

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.nitishkamath.patnatour">
+    package="com.harleenkaur.carShop">
 
     <application
         android:allowBackup="true"
@@ -10,27 +10,27 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.PatnaTour">
         <activity
-            android:name=".CompanyDetails"
+            android:name="com.harleenkaur.carShop.CompanyDetails"
             android:screenOrientation="portrait"
             android:exported="true" />
         <activity
-            android:name=".ModifyVehicles"
+            android:name="com.harleenkaur.carShop.ModifyVehicles"
             android:screenOrientation="portrait"
             android:exported="true" />
         <activity
-            android:name=".AddDetails"
+            android:name="com.harleenkaur.carShop.AddDetails"
             android:screenOrientation="portrait"
             android:exported="true" />
         <activity
-            android:name=".soldvehicle"
+            android:name="com.harleenkaur.carShop.soldvehicle"
             android:screenOrientation="portrait"
             android:exported="true" />
         <activity
-            android:name=".allvehicle"
+            android:name="com.harleenkaur.carShop.allvehicle"
             android:screenOrientation="portrait"
             android:exported="true" />
         <activity
-            android:name=".SplashScreen"
+            android:name="com.harleenkaur.carShop.SplashScreen"
             android:exported="true"
             android:screenOrientation="portrait"
             >
@@ -41,19 +41,19 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".menu"
+            android:name="com.harleenkaur.carShop.menu"
             android:exported="true"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".PlaceDetail"
+            android:name="com.harleenkaur.carShop.PlaceDetail"
             android:exported="true"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".FinalActivity"
+            android:name="com.harleenkaur.carShop.FinalActivity"
             android:exported="true"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".MainActivity"
+            android:name="com.harleenkaur.carShop.MainActivity"
             android:exported="true"
             android:screenOrientation="portrait" />
     </application>

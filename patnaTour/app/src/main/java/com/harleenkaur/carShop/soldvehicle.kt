@@ -1,11 +1,11 @@
-package com.nitishkamath.patnatour
+package com.harleenkaur.carShop
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 
-class allvehicle : AppCompatActivity() {
+class soldvehicle : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_allvehicle)
+        setContentView(R.layout.activity_soldvehicle)
     }
 }

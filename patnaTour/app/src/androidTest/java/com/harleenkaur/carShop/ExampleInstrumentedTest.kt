@@ -1,4 +1,4 @@
-package com.nitishkamath.patnatour
+package com.harleenkaur.carShop
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4

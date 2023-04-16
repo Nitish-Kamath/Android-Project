@@ -1,11 +1,11 @@
-package com.nitishkamath.patnatour
+package com.harleenkaur.carShop
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 
-class ModifyVehicles : AppCompatActivity() {
+class CompanyDetails : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_modify_vehicles)
+        setContentView(R.layout.activity_company_details)
     }
 }
